@@ -3,24 +3,51 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Yflex | Page not found</title>
 	<script>
 	(function() {
 		if(!location.hostname) return;
+		var h = document.querySelector('head');
 		var b = document.createElement('base');
-		b.href = 'https://yflex.co';
-		document.querySelector('head').appendChild(b);
+		b.href = 'https://yflex.co/';
+		h.insertBefore(b, h.firstChild);
 	})();
 	</script>
+	<title>Yflex | Flexible working toolkit for business</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
 	<div id="wrap">
+		<div class="quadrants">
+			<a class="upper left" href="https://docs.google.com/document/d/1Sgxf3ZSEnd9MWItO35JbKBy8wma1ppmPF9gLJx4ceTk/edit">
+				<div class="inner">
+					<div class="name link">Framework &raquo;</div>
+					<div class="desc">Learn why and how to create a "flexible by default" business culture</div>
+				</div>	
+			</a>
+			<a class="upper right" href="https://docs.google.com/presentation/d/1aw3py91L65-dkjDmzMwYaXyWYVUCvE7ZD9xBxDxYGwE/edit">
+				<div class="inner">
+					<div class="name link">Manifesto &raquo;</div>
+					<div class="desc">Define the principles behind your approach to flexible working</div>
+				</div>
+			</a>
+			<a class="lower left" href="https://docs.google.com/spreadsheets/d/1vNRg_SfzbPqcIiJukQTCrLqZTjwxUUHb1APtPhfaq7I/edit">
+				<div class="inner">
+					<div class="name link">Maturity survey &raquo;</div>
+					<div class="desc">Gauge your business maturity level, and measure progress over time</div>
+				</div>
+			</a>
+			<a class="lower right" href="https://docs.google.com/presentation/d/1PlsGwzl0co39BTwM2dG6uxmjaEMfJVhUUeyOtMWPEWs/edit">
+				<div class="inner">
+					<div class="name link">Business case &raquo;</div>
+					<div class="desc">Build your case for flexible working, and create a blueprint for change</div>
+				</div>
+			</a>
+		</div>
 		<div class="midpoint">
 			<div class="logo"><span>Y</span>flex</div>
-			<div class="strapline">Page not found</div>
-			<a class="link" href="./">Back home &raquo;</a>
+			<div class="strapline">A free flexible working toolkit,<br>for every business</div>
+			<a class="link" href="mailto:&#104;&#101;&#108;&#108;&#111;&#064;&#121;&#102;&#108;&#101;&#120;&#046;&#099;&#111;">Ask an expert &raquo;</a>
 		</div>
 	</div>
 </body>
