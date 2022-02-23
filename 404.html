@@ -6,6 +6,14 @@
 	<title>Yflex | Page not found</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<script>
+	(function() {
+		if(!location.hostname) return;
+		var b = document.createElement('base');
+		b.href = 'https://yflex.co';
+		document.querySelector('head').appendChild(b);
+	})();
+	</script>
 </head>
 <body>
 	<div id="wrap">
