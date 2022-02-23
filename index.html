@@ -3,16 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script>
-	(function() {
-		if(!location.hostname) return;
-		var h = document.querySelector('head');
-		var b = document.createElement('base');
-		b.href = 'https://yflex.co/';
-		h.insertBefore(b, h.firstChild);
-	})();
-	</script>
 	<title>Yflex | Flexible working toolkit for business</title>
+	<script>
+	if(location.hostname) {
+		document.write('<base href="' + location.protocol + '//' + location.hostname + '/">');
+	}
+	</script>
 	<link rel="stylesheet" href="style.css">
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
